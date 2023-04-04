@@ -1,6 +1,5 @@
 FROM node:8
 
-
 # Папка приложения
 ARG APP_DIR=app
 RUN mkdir -p ${APP_DIR}
