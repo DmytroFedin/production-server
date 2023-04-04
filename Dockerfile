@@ -12,7 +12,7 @@ RUN npm install
 # RUN npm install --production
 
 # Копирование файлов проекта
-COPY . .
+COPY . /${APP_DIR}
 
 # Уведомление о порте, который будет прослушивать работающее приложение
 EXPOSE 8000
